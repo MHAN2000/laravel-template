@@ -1,0 +1,97 @@
+:root {
+    --bg-color: rgb(223, 230, 236);
+    --success: #44A17A;
+    --danger: #E36A53;
+    --warning: #FDD150;
+    --strongWarning: #F49F3E;
+    --main: #92499C;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(223, 230, 236);
+}
+
+.btn {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid;
+    border-color: #296049;
+    border-width: 3px;
+    padding: 0.5rem 2rem;
+    border-radius: 0px;
+    box-shadow: 0px 4px 12px rgba(66, 66, 66, .50);
+    text-shadow: 0px 0px 5px rgba(66, 66, 66, .75);
+}
+
+.btn-success {
+    background-color: var(--success);
+}
+
+.btn-nav-search {
+    padding: 1.5rem 1.5rem;
+    font-size: 1.5rem;
+    color: black;
+    background-color: var(--danger);
+}
+
+.btn-nav-chart {
+    padding: 1.5rem 1.5rem;
+    font-size: 1.5rem;
+    color: black;
+    background-color: var(--success);
+}
+
+.btn-nav-travelExpenses {
+    padding: 1.5rem 1.5rem;
+    font-size: 1.5rem;
+    color: black;
+    background-color: var(--warning);
+}
+
+.btn-nav-transparencyReport {
+    padding: 1.5rem 1.5rem;
+    font-size: 1.5rem;
+    color: black;
+    background-color: var(--strongWarning);
+}
+
+.btn-nav-settings {
+    padding: 1.5rem 1.5rem;
+    font-size: 1.5rem;
+    color: black;
+    background-color: var(--main);
+}
+
+.btn-nav-logout {
+    padding: 1.5rem 1.5rem;
+    font-size: 1.5rem;
+    color: black;
+    background-color: red;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-color: #ffffff;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(66, 66, 66, .50);
+}
+
+input:focus {
+    outline: none;
+}
