@@ -22,8 +22,6 @@
         crossorigin='anonymous'></script>
     <!-- JQUERY -->
     <script src='{{ asset('lib/jquery/jquery.min.js') }}' defer></script>
-    <!-- BOOTSTRAP -->
-    <script src='{{ asset('lib/bootstrap/bootstrap.bundle.min.js') }}' defer></script>
     <!-- SWEETALERT 2 -->
     <script src='{{ asset('lib/sweetalert/sweetalert2.all.min.js') }}' defer></script>
     <!-- Datatables -->
